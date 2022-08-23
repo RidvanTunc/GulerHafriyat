@@ -1,0 +1,10 @@
+.htaccess
+.ftpquota
+cgi-bin/*
+.well-known/*
+.vscode
+robots.txt
+sitemap.xml
+Notlar.txt
+googlee12c4903bfd37e01.html
+panel/*

@@ -1,0 +1,339 @@
+/************************************************************Genel Ayarlar************************************************/
+a {
+  text-decoration: none;
+}
+.tag-manager-hide {
+  display: none;
+  visibility: hidden;
+}
+.line {
+  margin-bottom: 4.5px;
+  width: 70px;
+  height: 2.5px !important;
+  background-color: #f1bc3e !important;
+}
+.hakkimizda,.projeler,.galeri,.parkur,.iletisim {
+  margin-top: 35px !important;
+}
+.hakkimizda h1,.hizmetlerimiz h1,.projeler h1,.galeri h1,.parkur h1,.iletisim h1 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #343a40;
+}
+/****************************************************************İnfo*****************************************************/
+.header-info-background {
+  background: #f1bc3e;
+}
+.header-info {
+  margin-right: 0px;
+  font-size: 13px;
+}
+.header-info a {
+  padding: 30px 15px 30px 15px !important;
+  color: #000 !important;
+  transition: all .3s ease;
+}
+.header-info a:hover{
+  background-color: #343a40;
+  color: #f1bc3e !important;
+}
+/***************************************************************Menu******************************************************/
+#logo {
+  transition: all .3s ease;
+}
+#navbar {
+  padding: 0 !important;
+  border-bottom: .5px solid #f1bc3e;
+}
+.navbar-brand img {
+  top: -53px;
+  height: 125px;
+  width: 225px;
+  position:absolute;
+  z-index: 7;
+}
+.nav-item a {
+  padding: 25px 15px 25px 15px !important;
+  color: #f1bc3e !important;
+  transition: all .3s ease;
+}
+.nav-item a:hover{
+  background-color: #f1bc3e;
+  color: black !important;
+}
+.nav-item .animate__fadeInUp {
+ --animate-duration: 0.3s;
+ --animate-slow:2s;
+}
+/************************************************************slayt*******************************************************/
+.carousel {
+  border-bottom: .7px solid #f1bc3e !important;
+}
+.carousel-item {
+  background-color: black;
+}
+.carousel-item img {
+  height: 650px;
+  opacity: .7;
+}
+.carousel-item .carousel-caption {
+  width: auto;
+  height: 100px;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.carousel-item h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px;
+  color:  rgb(33, 37, 41);
+  background-color:rgb(241, 188, 62);
+}
+.carousel-item a {
+  padding: 7.7px;
+  display: inline-block;
+  border-bottom: .5px solid #f1bc3e;
+  background-color: #343a40;
+  color: rgb(241, 188, 62);
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.5px;
+  transition: all 0.5s ease;
+}
+.carousel-item a:hover {
+  background-color: rgb(241, 188, 62);
+  color:rgb(33, 37, 41);
+}
+.carousel-item .animate__bounceInLeft, .carousel-item .animate__bounceInRight,
+.carousel-item .animate__fadeIn, .carousel-item .animate__flipInY,
+.carousel-item .animate__flipInX, .carousel-item .animate__fadeInDown, 
+.carousel-item .animate__fadeInUp, .carousel-item .animate__fadeInLeft, .carousel-item .animate__fadeInRight {
+  animation-delay: 0.7s;
+}
+.carousel-next-font,.carousel-prev-font {
+  font-size: 22px;
+}
+/*************************************************Hakkimizda**************************************************************/
+.hakkimizda p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  margin-top: 15px;
+}
+.hakkimizda img {
+  border-radius: 3px;
+  border: .5px solid #f1bc3e;
+}
+/*************************************************Hizmetlerimiz**********************************************************/
+.hizmetlerimiz {}
+/***************************************************Projeler**************************************************************/
+.proje-box{
+  width: 270px;
+  height: auto;
+  position: relative;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: text;
+  border: .5px solid #f1bc3e;
+  border-radius: 5px;
+}
+.proje-box img{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.proje-yazısı{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  text-align: center;
+  word-wrap: break-word;
+  background-color: rgb(52, 58, 64,.3);
+  color: #fff;
+  transition:all .3s ease;
+}
+.proje-box:hover{
+  background-color: #f1bc3e;
+}
+.proje-box:hover .proje-yazısı{
+  background-color: rgb(241, 188, 62,.8);
+  color: #343a40 !important;
+}
+/***************************************************Parkur***************************************************************/
+.parkur-adet{
+  font-size: 18px !important;
+}
+.parkur-ozellik{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -7px;
+  font-size: 16px !important;
+}
+/***************************************************Galeri***************************************************************/
+.galeri img {
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+  margin: 5px 0 0 5px;
+  border: .5px solid #f1bc3e;
+  border-radius: 5px;
+  transition: all .1s ease;
+}
+.galeri img:hover {
+  opacity: .7;
+  background-color: #f1bc3e;
+  border: .5px solid #343a40;
+  transform: translate(0) rotate(0) scale(1.2);
+  box-shadow: #343a40 3px 3px 3px 3px;
+  transition: all .3s ease;
+}
+/***************************************************İletişim***************************************************************/
+.iletisim h1 {
+  margin: 0;
+  padding: 12px !important;
+  padding-top: 0 !important;
+}
+.iletisim h2 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #343a40;
+}
+.iletisim iframe {
+  border: .5px solid #f1bc3e;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+.iletisim ul {
+  list-style-type: none;
+  padding-left: 17px;
+}
+.iletisim ul a {
+  color: #343a40;
+  font-size: 15px;
+}
+.iletisim ul i {
+  color: #f1bc3e;
+}
+.iletisim a:hover {
+  color: #f1bc3e;
+}
+.iletisim input:focus::placeholder {
+  color: #333;
+}
+.iletisim textarea:focus::placeholder {
+  color: #333;
+}
+.iletisim button:hover {
+  color: #333 !important;
+}
+/********************************************************footer***********************************************************/
+footer {
+  border: .5px solid #f1bc3e;
+  border-radius: 10px 10px 0 0;
+  background: #343a40;
+}
+footer a, footer div, footer p {
+  color: white;
+}
+footer h5 {
+  font-size: 19px;
+  font-weight: 400;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+footer .sayfalar {
+  width: auto;
+  padding-left: 70px;
+}
+footer .iconlar {
+  width: 155px;
+  padding-right: 70px;
+}
+footer a:hover {
+  color: #f1bc3e;
+}
+footer .telif{
+  opacity: .8;
+  border-radius: 10px 10px 0 0;
+}
+footer .telif,.telif a {
+  background-color: #f1bc3e;
+  color: #343a40;
+}
+.telif a:hover {
+  color: rgb(52, 58, 64, .8);
+}
+/***************************************************Resposive*************************************************************/
+/***************************************************Resposive*************************************************************/
+@media screen and (min-width:1300px) {
+  .carousel-item img {
+    height: 100vh;
+  }
+}
+@media screen and (max-width:1000px) {
+  .nav-item {
+    padding-left: 0;
+  }
+  .carousel-item img {
+    height: 400px;
+  }
+  .hakkimizda p {
+    margin-top: 0;
+  }
+}
+/***********************************************************************************/
+@media screen and (max-width:825px) {
+  hide {display: none;}
+  .header-info a {
+    padding: 30px 7px 30px 7px !important;
+  }
+}
+/***********************************************************************************/
+@media screen and (max-width:600px) {
+  .main-galery h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .iletisim iframe {
+    height: 300px;
+  }
+}
+/***********************************************************************************/
+@media screen and (max-width:575px) {
+  .iletisim .h2iletisimbilgi {
+    margin-top: 35px !important;
+    margin-left: 0 !important;
+  }
+  .iletisim ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .galeri img:hover {
+    transform: translate(0) rotate(0) scale(1.090,1.2);
+  }
+}
+/***********************************************************************************/
+@media screen and (max-width:450px) {
+  .hakkimizda img {
+    height: 250px !important;
+  }
+}
+/***********************************************************************************/
+@media screen and (max-width:438px) {
+  .galeri img {
+    width: 270px !important;
+    height: 200px !important;
+  }
+}
